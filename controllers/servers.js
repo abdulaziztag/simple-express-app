@@ -6,7 +6,7 @@ let servers = [
 ]
 
 export const getAll = (req, res) => {
-  res.status(400).json(servers)
+  res.status(200).json(servers)
 }
 
 export const create = (req, res) => {
